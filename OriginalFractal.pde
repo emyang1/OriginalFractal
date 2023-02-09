@@ -10,11 +10,11 @@ public void draw(){
   if(x>=255)
     x=0;
   else
-    x++;
+    x+=2;
   if(y<=0)
     y=255;
   else
-    y--;
+    y-=2;
   background(y);
   fill(x);
   fractal(250, 250, 255);
